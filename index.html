@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW JS</title>
+</head>
+
+<body>
+    <h1>
+
+        Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+    </h1>
+
+    <p>
+
+        Operators in JavaScript are symbols or keywords that perform operations on variables and values. They allow you
+        to manipulate and perform calculations on data, making your code dynamic and interactive. Operators are
+        essential because they enable you to express logic, perform comparisons, and handle data in a way that is
+        fundamental to programming.
+    </p>
+
+    <h1>
+
+        Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+        each category.
+    </h1>
+    <h2>
+
+        Arithmetic Operators:
+    </h2>
+
+    <p>
+
+        let addition = 5 + 3; // 8
+        <br>
+        let subtraction = 10 - 4; // 6
+        <br>
+        let multiplication = 2 * 6; // 12
+        <br>
+        let division = 8 / 2; // 4
+        <br>
+        let modulus = 10 % 3; // 1
+        <br>
+        Comparison Operators:
+        <br>
+
+        let isEqual = (a === b); // Strict equality
+        <br>
+        let isNotEqual = (a !== b); // Strict inequality
+        <br>
+        let greaterThan = (a > b);
+        <br>
+        let lessThan = (a < b); <br>
+            Logical Operators:
+            <br>
+
+
+            let andOperator = (x && y); // Logical AND
+            <br>
+            let orOperator = (x || y); // Logical OR
+            <br>
+            let notOperator = !x; // Logical NOT
+            <br>
+            Assignment Operators:
+
+            <br>
+
+            let x = 10;
+            <br>
+            x += 5; // x is now 15 (x = x + 5)
+            <br>
+            Unary Operators:
+            <br>
+
+
+            let a = 5;
+            <br>
+            a++; // Increment: a is now 6
+            <br>
+            a--; // Decrement: a is now 5
+            <br>
+            Ternary Operator:
+
+            <br>
+
+            let result = (condition) ? "true case" : "false case";
+    </p>
+    <h1>
+
+        Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+    </h1>
+
+    <h3>
+
+
+        Unary Operators: Operate on a single operand.
+    </h3>
+
+    <p>
+
+        <br>
+        let x = 5;
+        <br>
+        x++; // Increment (Unary): x is now 6
+        <br>
+        Binary Operators: Operate on two operands.
+        <br>
+        <br>
+        let y = 10;
+        <br>
+        let sum = x + y; // Addition (Binary): sum is 16
+        <br>
+        Ternary Operator: Operates on three operands.
+        <br>
+        <br>
+        let result = (x > y) ? "x is greater" : "y is greater";
+    </p>
+    <h1>
+
+        Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+        important?
+    </h1>
+    <h3>
+
+        Precedence: Determines the order of evaluation when multiple operators are present. Higher precedence operators
+        are evaluated first.
+        Example:
+    </h3>
+
+    <p>
+        <br>
+        let result = 2 + 3 * 4; // Multiplication has higher precedence
+        <br>
+        // Result: 14 (3 * 4) + 2
+        <br>
+        Associativity: Defines the order of evaluation for operators with the same precedence. It can be left-to-right
+        or right-to-left.
+        <br>
+        Example:
+        <br>
+        <br>
+        let result = 10 - 5 + 2; // Left-to-right associativity
+        <br>
+        // Result: (10 - 5) + 2 = 7
+        <br>
+        Understanding these concepts is important for writing correct and predictable code, as they impact the order in
+        which operations are performed.
+        <br>
+    </p>
+    <h1>
+
+        Q5. Write a JavaScript program that calculates the simple interest using the formula Simple interest =
+        (principal * rate * time) / 100.
+    </h1>
+
+
+    <code>
+
+    <br>
+        let principal = 1000;
+        <br>
+        let rate = 5;
+        <br>
+        let time = 2;
+        <br>
+        <br>
+        
+        let simpleInterest = (principal * rate * time) / 100;
+        <br>
+        console.log("Simple Interest:", simpleInterest);
+        <br>
+        </code>
+
+    <h1>
+
+        Q6. Write a Javascript program to calculate the Body Mass Index (BMI) using the formula BMI = weight (kg)/
+        height * height.
+    </h1>
+
+
+
+    <p>
+        <br>
+        let weight = 70; // in kilograms
+        <br>
+        let height = 1.75; // in meters
+        <br>
+
+        <br>
+        let bmi = weight / (height * height);
+        <br>
+        console.log("BMI:", bmi);
+        <br>
+    </p>
+
+    <h1>
+
+        Q7. Write a program in JavaScript to calculate the area of a circle given its radius value of 10. Use
+        appropriate arithmetic operators.
+    </h1>
+
+    <br>
+    let radius = 10;
+    <br>
+    let areaOfCircle = Math.PI * Math.pow(radius, 2);
+    <br>
+    console.log("Area of Circle:", areaOfCircle);
+    <br>
+
+    <hr>
+    <hr>
+    <h1>
+
+        Question 1: Explain what JavaScript is and its role in web development.
+    </h1>
+    <p>
+
+        JavaScript is a high-level, interpreted programming language primarily used for creating dynamic and interactive
+        content on websites. It is a key component in web development, allowing developers to enhance the user
+        experience by creating responsive and interactive web pages. JavaScript can be executed directly in web
+        browsers, making it an essential technology for client-side scripting. It enables functionalities such as form
+        validation, DOM manipulation, asynchronous requests (AJAX), and interactive user interfaces.
+
+    </p>
+    <h1>
+
+        Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you
+        would use each.
+    </h1>
+    <p>
+
+        JavaScript:
+
+        Programming language.
+        Used for adding interactivity and dynamic behavior to web pages.
+        Example: Form validation, image sliders, interactive maps.
+        HTML:
+
+        Markup language.
+        Used for structuring content on the web.
+        Example: Creating headings, paragraphs, lists, and defining the structure of a webpage.
+        In summary, HTML provides the structure of a webpage, while JavaScript adds behavior and interactivity.
+
+    </p>
+    <h1>
+
+        Question 3: List and describe the five primitive data types in JavaScript.
+    </h1>
+    <p>
+        <br>
+        Number: Represents numeric values.
+        <br>
+        <br>
+        let num = 42;<br>
+        String: Represents textual data.
+        <br>
+        <br>
+        let text = "Hello, World!";<br>
+        Boolean: Represents true or false values.
+        <br>
+        <br>
+        let isTrue = true;<br>
+        Null: Represents the intentional absence of any object value.
+        <br>
+        <br>
+        let nullValue = null;<br>
+        Undefined: Represents a variable that has been declared but not assigned a value.
+        <br>
+        <br>
+        let undefinedValue;
+    </p>
+    <h1>
+
+        Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the
+        'let' keyword?
+    </h1>
+    <p>
+
+        Declaring variables in JavaScript is essential for storing and manipulating data. Variables provide a way to
+        reference and reuse values in your code. The let keyword is used to declare variables. For example:
+        <br>
+        let myVariable = "This is a variable";
+        <br>
+        In this example, myVariable is declared and assigned the string value "This is a variable."
+
+    </p>
+    <h1>
+
+        Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and multi-line
+        comments.
+    </h1>
+    <p>
+
+        Comments in JavaScript are used to add explanations or notes to the code. They are ignored by the JavaScript
+        interpreter and serve as documentation for developers.<br>
+        <br>
+        Single-line comment:
+        <br>
+        <br>
+        // This is a single-line comment<br>
+        let x = 10; // Variable x is assigned the value 10<br><br>
+        Multi-line comment:
+        <br>
+        <br>
+        /*
+        This is a multi-line comment.<br>
+        It can span multiple lines.<br>
+        */<br>
+        let y = 20;<br>
+        Comments help make code more understandable, especially for others who might read or collaborate on the code.
+    </p>
+    <h1>
+
+        Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript. Provide
+        an example where using a clear identifier improves code readability.
+    </h1>
+    <p>
+        <br>
+        Choosing meaningful variable names is crucial for code readability and maintenance. Clear identifiers make it
+        easier for developers to understand the purpose of variables. For example:
+        <br>
+
+        // Unclear variable name
+        <br>
+        let a = 5;<br>
+<br>
+        // Clear variable name
+        <br>
+        let numberOfStudents = 5;
+
+    </p>
+</body>
+
+</html>
